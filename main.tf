@@ -22,7 +22,7 @@ resource "aws_instance" "project111" {
 
 
 resource "aws_iam_policy" "bucket_policy" {
-  name        = "aws_s3_access_policy-0"
+  name        = "aws_s3_access_policy-0-summafun"
   path        = "/"
   description = "Allow "
 
@@ -48,7 +48,7 @@ resource "aws_iam_policy" "bucket_policy" {
 }
 
 resource "aws_iam_role" "ec2_role" {
-  name = "aws_s3_access_role-0"
+  name = "aws_s3_access_role-0-summafun"
 
   assume_role_policy = jsonencode({ 
 
