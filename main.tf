@@ -72,6 +72,6 @@ resource "aws_iam_role_policy_attachment" "some_bucket_policy" {
 
 
 resource "aws_iam_instance_profile" "some_profile" {
-  name = "aws_s3_profile_0_new-1-0"
+  name = "aws_s3_profile_0_new-1-0summafunku"
   role =  aws_iam_role.ec2_role.name
 }
